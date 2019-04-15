@@ -10,3 +10,15 @@ The user may use one of four commands:
 2. spotify-this-song
 3. movie-this
 4. do-what-it-says </p>
+
+<h1> How to Use: </h1>
+<p>
+1. Open your terminal
+2. Navigate to the file liri.js
+3. Try running one of the four commands
+    a. concert-this
+    b. spotify-this-song
+    c. movie-this
+    d. do-what-it-says
+        ex. "node liri.js concert-this <name of artist or band>
+Expected Output: The terminal will display a list of all events and locations where the artist/band may be performing. The results will simultaneously be logged to the the log.txt file.

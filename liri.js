@@ -154,12 +154,12 @@ function showMovieInfo(inputParameter) {
 }
 
 //read random.txt file
-function showSomeInfo( {
-  fs.readFile ("random.txt", "utf8", function(err, data){
-    if (err) {
-      return console.log(err);
-    }
-    var dataArray = data.split(",");
-    userInputs(dataArray[0], dataArray[1]);
-  })
-})
+//function showSomeInfo ({
+//fs.readFile ("random.txt", "utf8", function(err, data){
+//if (err) {
+//return console.log(err);
+//}
+//var dataArray = data.split(",");
+//userInputs(dataArray[0], dataArray[1]);
+//})
+//})
